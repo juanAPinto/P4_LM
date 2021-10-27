@@ -1,0 +1,27 @@
+/* Estilos partidos de jornada. 
+Integrantes: Evelin Reyes,Anotnio Pinto,Gustavo Payo*/
+h1 {
+    text-align: center;/* centra los h1,título */
+    letter-spacing: 3px; /*para hacer que el espacio entre las letra aumente */
+}
+p {
+    margin-left: auto;
+    margin-right: auto;/* al establecer margen izquierda y derecha se crea un eespacio hacia abajo por defecto */
+    width: 700px;
+    border: 3px solid brown;
+    text-align: center;
+}
+a:link {
+    color: rgb(219, 81, 81); /*El color será así cuando no hayan dado click en el enlace*/
+}
+a:visited{
+    color: brown /*Cuando ya hayas visitado ese enlace las letras serán marrones*/
+}
+a:hover{
+    color: black;/*Aparecerá en negro cuando se señale con el ratón*/
+}
+iframe{
+    margin:  auto; /*Los vídeos se centran */
+    display: block/*establece un bloque para centrar*/
+}
+

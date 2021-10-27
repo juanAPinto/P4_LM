@@ -1,52 +1,57 @@
+/*Los componentes de este trabajo somos:
+Evelin Reyes
+Juan Antonio Pinto
+Gustavo Payo*/
 
-		body {
-			background: url(benzema.jpg);
-			background-size: 100%;
-			background-position: center;
-			background-attachment: fixed;
+html {
+    border: 8px solid #CE8005;
+    min-height: 100%;
+    /*Creo un borde con color en toda la página*/
 }
 
-#container{
-    width: auto;
-    margin: 0px auto;
-    border: 2 px solid black;
+body {
+    background: url(benzema.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    /* En este apartado pongo la foto de fondo de pantalla de modo que siempre quede inmóvil y centrada*/
 }
 
-
-
-#Práctica3{ color:red;
-   text-align:center;
-   font-style: oblique;
-   -webkit-text-stroke: 1px black;
-   background-color: aqua;
+#Práctica3 {
+    color: red;
+    text-align: center;
+    font-style: oblique;
+    -webkit-text-stroke: 1px;
+    background-color: aqua;
+    /* Centro el texto, le cambio de color, le doy un color al fondo, le doy algo de formato al estilo de letra  */
 }
-p.Gustavo { color:red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
+.Bordes {
+    border: 10px solid #3EC483;
+    background: #5DEAA8;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    /*Con esta parte quiero hacer una caja en la que insertar el listado que vendrá  a continuación en el que incluyo además un margen  */
 }
-p.Evelin { color: red;
 
-}
-p.Juan { color: red;
-
-}
-p2 { color: brown;
+p1 {
+    color: brown;
     text-transform: uppercase;
     text-decoration: underline;
-	background-color: aqua;
-	
-}
-p3 { color: green;
-	text-transform: uppercase;
-	text-decoration: underline;
-	background-color: aqua;
-
-}
-a {color: blueviolet;
-	line-height: 3.5;
-	background-color: aqua;
+    background-color: aqua;
 }
 
+p2 {
+    color: green;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: aqua;
+}
 
-
-	
+a {
+    color: blueviolet;
+    line-height: 3.5;
+    background-color: aqua;
+}

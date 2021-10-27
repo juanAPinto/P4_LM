@@ -1,33 +1,45 @@
-/* Estilos CSS */
-
-table, td, th {
-  border: 1px solid black;
+/* Estilos CSS de miEquipo.html
+Integrantes: Evelin Reyes,Antonio Pinto,Gustavo Payo */
+body{
+  background-color:black;/* Color de fondo de página*/
 }
-
-table {
-  width: 70%;
-
-  border-collapse: collapse;
-
+h2 {
+  text-align: center;/* centra los h2,título */
+  letter-spacing: 3px;/*para hacer que el espacio entre las letra aumente */
+  color: bisque; /* Color de la letra*/
 }
-th {
-  
-  display: table-cell;
-vertical-align: middle;
+.imagen{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  /* */
 }
-
-td img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+.titulo{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: aliceblue;
+  /* Para el posicionamiento del texto dentro de la imagen */
 }
-
-td { width: 100px ; }
-
-
 img {
-	
-	display: block;
-	margin:  auto;
+  border-top: rgba(0, 0, 255, 0.61) 10px double;
+  border-right:aliceblue 10px double;
+  border-bottom: rgba(0, 0, 255, 0.61) 10px double;
+  border-left: aliceblue 10px double;
+  padding: 20px;
+  /* Margenes alrededor de la imagen */
+}
+a:link {
+  color: bisque /*El color será así cuando no hayan dado click en el enlace*/
+}
+a:visited{
+  color: blue /*Cuando ya hayas visitado ese enlace las letras serán azules*/
+}
+a:hover{
+  color: blueviolet;/*Aparecerá el color cuando se señale con el ratón*/
+}
+p{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  /*tipografia y color de letras*/
 }

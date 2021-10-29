@@ -11,12 +11,9 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
-    
-=======
-    background: url(benzema.jpg);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background-image url(benzema.jpg);
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -60,5 +57,5 @@ a {
     color: blueviolet;
     line-height: 3.5;
     background-color: aqua;
->>>>>>> 2630fe95841f946329680607ee2aba44c3985315
+
 }

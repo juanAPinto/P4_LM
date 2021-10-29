@@ -1,5 +1,64 @@
+/*Estilos CSS de index.html 
+Los componentes de este trabajo somos:
+Evelin Reyes
+Juan Antonio Pinto
+Gustavo Payo*/
+
+html {
+    border: 8px solid #CE8005;
+    min-height: 100%;
+    /*Creo un borde con color en toda la página*/
+}
+
 body {
+<<<<<<< HEAD
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
     
+=======
+    background: url(benzema.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    /* En este apartado pongo la foto de fondo de pantalla de modo que siempre quede inmóvil y centrada*/
+}
+
+#Práctica3 {
+    color: red;
+    text-align: center;
+    font-style: oblique;
+    -webkit-text-stroke: 1px;
+    background-color: aqua;
+    /* Centro el texto, le cambio de color, le doy un color al fondo, le doy algo de formato al estilo de letra  */
+}
+
+.Bordes {
+    border: 10px solid #3EC483;
+    background: #5DEAA8;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin: 5px;
+    /*Con esta parte quiero hacer una caja en la que insertar el listado que vendrá  a continuación en el que incluyo además un margen  */
+}
+
+p1 {
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+p2 {
+    color: green;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+a {
+    color: blueviolet;
+    line-height: 3.5;
+    background-color: aqua;
+>>>>>>> 2630fe95841f946329680607ee2aba44c3985315
 }

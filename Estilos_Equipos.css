@@ -1,0 +1,57 @@
+#table1, td, th {
+    border:gray 4px solid;
+    margin-top: 4%; /* Se utiliza margin-top adecuando un espacio entre el Titulo y la tabla1 */
+
+  
+  }
+
+#table2, td, th {
+    border: gray 4px solid;
+    margin-top: 10%; /* Se utiliza margin-top para separar el margen de la tabla1 con la tabla 2 */
+  
+}
+  
+#table1 {
+    width: 100%; 
+    border-collapse: collapse;   
+    
+    
+}
+#table2 {
+    width: 100%; 
+    border-collapse: collapse;  
+    
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+td { width: 100px ; }
+img {
+	display: block;
+	margin:  auto;
+}
+h1.Titulo {
+    text-align: center;
+    text-shadow: 2px 2px 20px blue;
+    font-family: fantasy;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+body {
+   
+ 
+
+}
+/*
+ background-image: url("https://previews.123rf.com/images/khunaspix/khunaspix1210/khunaspix121000039/15698046-f%C3%BAtbol-f%C3%BAtbol-en-red-de-la-porter%C3%ADa-y-el-estadio-de-fondo-de-cielo-azul.jpg");
+ background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: cursive;
+    text-shadow: 4px 4px 5px red;
+    text-align: center;
+*/
